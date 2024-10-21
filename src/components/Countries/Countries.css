@@ -1,0 +1,19 @@
+.coutries-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+h3{
+    text-align: center;
+}
+
+.visited{
+    background-color: bisque;
+    color: black;
+}
+
+.flags-container img{
+width: 100px;
+padding: 10px;
+}
